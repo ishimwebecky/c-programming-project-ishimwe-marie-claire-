@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+		body{
+			background-color: aquamarine;
+		}
+		form{
+			background-color: orangered;
+			padding: 10px;
+			margin: 10px;
+					}
+					.class1{
+            background-color: gray;
+            text-align: center;
+        }
+        .class1 ul{
+            padding: 20px;
+            list-style: none;
+            color: white;
+        }
+        .class1 ul li{
+            display: inline;
+            width: 120px;
+            margin-left: 15px;
+            padding: 15px;
+        }
+        .class1 ul li a{
+            text-decoration: none;
+            color: yellow;
+        }
+        .active, .class1 ul li:hover{
+            background-color: blue;
+            font-size: 20px;
+        }
+
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+</head>
+<body>
+
+	<div class="class1">
+        <ul>
+            <li><a href="home.html">Home</a> </li>
+            <li><a href="Basic.html">Basic</a></li>
+            <li><a href="datatype.html">DataType</a></li>
+            <li><a href="Variable.html">Variable</a></li>
+            <li><a href="keyword.html">Keyword</a></li>
+            <li><a href="operator.html">Operator</a></li>
+             <li  class="active"><a href="linking form.html">Feedback Form</a></li>           
+              
+            </li>
+
+        </ul>
+    </div>
+	
+        <form align="center"><h1>Feedback Form</h1>
+        <p><label>Student Name</label>
+        <input type="text" placeholder="user name" required><br></p>
+        <p><label>Email:</label>
+        <input type="email" placeholder="email" required><br></p>
+        <p><label>Telephone No:</label>
+        <input type="telephone" placeholder="enter your number" required></p>
+       
+        <P>Submission date<input type="date"></P>
+        Comments:<br>
+        <textarea>Comments</textarea>
+        <p><input type="submit" name="login"></p>
+    
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+.header{
+  background-color: #19A7CE;
+  text-align: center;
+  padding: 20px;
+}
+body{
+  background-color: #BBD6B8;
+}
+   .navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8F43EE;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #111;
+}
+
+}
+#link3{
+  position: absolute;
+  right: 2px;
+}
+
+.navbar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.navbar li a:hover {
+  background-color: #555;
+  color: white;
+}
+.verticalbar{
+  background-color: green;
+  display: block;
+  position: absolute;
+  left: 2px;
+  width: 200px;
+}
+.verticalbar ul{
+  list-style-type: none;
+  display: block;
+}
+.verticalbar ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.content2 {
+  position: absolute;
+  left: 200px;
+  background-color: #AAE3E2;
+  border: 1px solid #AAE3E2;
+  width: 940px;
+}
+.content2 img{
+  border-radius: 100px 100px 100px 100px;
+  width: 200px;
+  height: 200px;
+}
+.content2 h1{
+  float: ri;
+
+}
+.content22{
+  background-color: #AAE3E2;
+  position: absolute;
+  top: 380px;
+  left: 200px;
+  width: 940px;
+}
+.content22 h1{
+  text-align: center;
+  color: #A84448;
+}
+.about{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.list{
+  background-color: #AAE3E2;
+  position: absolute;
+  top: 525px;
+  left: 200px;
+  width: 940px;
+  height: 162px;
+}
+.ullist{
+  background-color: #7DB9B6;
+  margin-left: 5px;
+  width: 49%;
+  position: absolute;
+  top: 5px;
+}
+.ullist ul{
+  list-style-type: upper-alpha;
+}
+.ollist{
+  background-color: #183A1D;
+  margin-right: 2px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 49%;
+}
+.ollist ol{
+  list-style-type: upper-roman;
+}
+
+
+
+.content3{
+  display: block;
+  position: absolute;
+  right: 2px;
+  height: 150px;
+}
+
+.content3 img{
+  display: block;
+  width: 200px;
+  height: 150px;
+  padding: 6px;
+}
+
+
+.footer {
+  background-color: #8D7B68;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 695px;
+  width: 1310px;
+}
+.footer p{
+  text-align: center;
+}
+.menu{
+  background-color: black;
+  border-radius: 50px 50px 50px 50px;
+}
+.menu a{
+  padding: 12px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: ariel;
+  font-weight: bold;
+  margin-left: 8px;
+  display: inline-block;
+}
+.menu a:visited{
+  text-decoration: none;
+  font-weight: none;
+  font-style: oblique;
+  color: rgb(255, 0, 0);
+}
+.menu a:hover{
+  text-align: center;
+  font-size: 60px;
+  color: skyblue;
+}
+.menu a:link{
+  text-decoration: none;
+}
+.menu a:active{
+  text-decoration: underline;
+  background-color: white;
+  color: black;
+}
+.unorderedlist{
+  border-radius: 12px 12p 12px 12px;
+  box-shadow: 12px 12px 12px 12px;
+  align-content: center;
+}
+.unorderedlist li{
+  list-style-type: square;
+}
+.orderedlist{
+  border-radius: 12px 12px 12px 12px;
+  box-shadow: 12px 12px 12px 12px green;
+  align-content: center;
+}
+.orderedlist li{
+  list-style: lower-roman;
+}
+.tab table{
+  background-color: skyblue;
+  width: 200px;
+}
+.tab table tr td{
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: oblique;
+}
+.verticalmenu{
+  background-color: skyblue;
+  width: 150px;
+}
+.verticalmenu ul{
+  list-style-type: none;
+  display: block;
+}
+.verticalmenu ul li{
+  display: block;
+  color: black;
+}
+.verticalmenu ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  font-style: oblique;
+  color: black;
+}
+.verticalmenu ul li:hover{
+  display: block;
+  background-color: gray;
+}
+.verticalmenu ul li a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
+

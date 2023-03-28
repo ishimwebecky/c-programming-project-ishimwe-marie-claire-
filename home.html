@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        body{
+            background-image: url(download\ \(1\).png);
+            background-size: cover;
+        }
+        .class1{
+            background-color: gray;
+            text-align: center;
+        }
+        .class1 ul{
+            padding: 20px;
+            list-style: none;
+            color: white;
+        }
+        .class1 ul li{
+            display: inline;
+            width: 120px;
+            margin-left: 15px;
+            padding: 15px;
+        }
+        .class1 ul li a{
+            text-decoration: none;
+            color: yellow;
+        }
+        .active, .class1 ul li:hover{
+            background-color: blue;
+            font-size: 20px;
+        }
+        .main{
+            display: flex;
+        }
+        .left{
+            margin-right: 40px;
+        }
+        .middle{
+            margin-left: 10px;
+            margin-right: 40px;
+        }
+        .right{
+            margin-left: 40px;
+        }
+        .footer{
+            text-align: center;
+            background-color: brown;
+            padding: 6px;
+        }
+        #p1{
+            font-size: 20px;
+            color: white;
+        }
+        span{
+            color: yellowgreen;
+        }
+        .icon{
+            margin:0 30px;
+            background-color:black;
+            font-size:50px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:brown; text-align: center;">WELCOME IN C PROGRAMMING COURSE ONLINE</h1>
+    <div class="class1">
+        <ul>
+            <li class="active"><a href="home.html">Home</a> </li>
+            <li><a href="Basic.html">Basic</a></li>
+            <li><a href="datatype.html">DataType</a></li>
+            <li><a href="Variable.html">Variable</a></li>
+            <li><a href="keyword.html">Keyword</a></li>
+            <li><a href="operator.html">Operator</a></li>
+             <li><a href="linking form.html">contact</a>
+                <select>
+                    <option>+250781586790</option>
+                    <option>+250782038494</option>
+                    <option>+250780629877</option>
+    
+                </select>
+            </li>
+          
+        </ul>
+    </div>
+    <form align="center"><h1>Registration Form</h1>
+        <p><label>User Name</label>
+        <input type="text" placeholder="user name" required><br></p>
+        <p><label>Email:</label>
+        <input type="email" placeholder="email" required><br></p>
+        <p><label>Password:</label>
+        <input type="password" placeholder="Password" required></p>
+        <p><label>A2 certificate</label>
+        <input type="file"></p>
+        <P><input type="date"></P>
+        <p><input type="submit" name="login"onclick="alert('You have successfully registered, continue with courses!!')"></p>
+    </form>
+    
+    <div class="main">
+        <div class="left">
+            <img src="download (4).jpeg" alt="C Programming" width="295" height="500">
+        </div>
+        <div class="middle">
+            <img src="download (2).jpeg" alt="middle pic" width="610" height="500">
+        </div>
+        <div class="right">
+            <img src="download (3).jpeg" alt="right pic" height="500" width="295">
+        </div>
+    </div>
+    <div class="footer">
+        <p id="p1">&copy;copy rigth by <span>Claire programmer</span></p>
+    </div>
+    <div class="icon">
+    <a href="http://twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="http://youtube.com"><ion-icon name="logo-youtube"></ion-icon></a>
+            <a href="http://skype.com"><ion-icon name="logo-skype"></ion-icon></a>
+                <a href="http://facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+            </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
